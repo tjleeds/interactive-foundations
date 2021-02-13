@@ -6,7 +6,7 @@ body{
 	font-size: 20px;
 	font-style: bold;
 	color: #1bd406;
-	line-height: 20px;
+
 
 }
 
@@ -24,9 +24,10 @@ h2{
 position: absolute;
 top:0px;
 font-weight: 400;
-	font-size: 10px;
-	font-style: bold;
-	color: #1bd406;
+font-size: 10px;
+font-style: bold;
+color: #1bd406;
+
 
 }
 
@@ -207,6 +208,31 @@ border: 1px solid black;
 	left: 260px;
     top: 180px;
 }
+
+
+#polkadothome{
+    position:absolute;
+	margin-top: 10px;
+    margin-left:352px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 10px solid pink;
+    border-radius: 50px;
+
+}
+
+#homelink{
+position:absolute;
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 368px;
+    font-family: syncopate;
+    font-size: 13px;
+    font-style: bold;
+    color:pink;
+
+
 
 
 

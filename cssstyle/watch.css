@@ -11,10 +11,13 @@ div {
 
 h2{
 position: absolute;
-font:courier;
-font-size: 44px;
+top: 207px;
+left: 38px;
+font-family:Syncopate;
+font-size: 30px;
 font-style: bold;
 color: #ff9800;
+transform: rotate(90deg);
 
 
 }
@@ -132,3 +135,28 @@ font-color:solid red;
     top: 389px;
 
 }
+
+
+
+#polkadothome{
+    position:absolute;
+    margin-top: 10px;
+    margin-left:352px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 10px solid pink;
+    border-radius: 50px;
+
+}
+
+#homelink{
+position:absolute;
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 368px;
+    font-family: syncopate;
+    font-size: 13px;
+    font-style: bold;
+    color:pink;
+
