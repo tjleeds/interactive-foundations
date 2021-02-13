@@ -150,6 +150,34 @@ padding:4px;
 
 }
 
+.triangle
+ { position:absolute;
+      width: 0;
+      height: 0;
+      border-top: 25px solid transparent;
+      border-right: 50px solid yellow;
+      border-bottom: 25px solid transparent;
+    }
+
+
+
+#triangle1{
+	top: 100px;
+    left: 30px;	
+}  
+
+#triangle2{
+    top: 240px;
+    left: 820px;
+    transform: rotate(80deg);
+    
+}  
+
+/*link and polkadot to my home page which dont need here but want to kee anyway
+    <div id="polkadothome"> </div>
+    <div id="homelink"> <a href= "index.html"> HOME</a> </div> -->
+
+
 #polkadothome{
     position:absolute;
     margin-top: -440px;
@@ -170,28 +198,7 @@ position:absolute;
     font-size: 19px;
     color:pink;
 
-
-
-.triangle
- { position:absolute;
-      width: 0;
-      height: 0;
-      border-top: 25px solid transparent;
-      border-right: 50px solid yellow;
-      border-bottom: 25px solid transparent;
-    }
-
-#triangle1{
-	top: 100px;
-    left: 30px;	
-}  
-
-#triangle2{
-    top: 240px;
-    left: 820px;
-    transform: rotate(80deg);
-    
-}  
+   */
 
 
 
