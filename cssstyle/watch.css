@@ -1,0 +1,134 @@
+body{
+ 
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+
+h2{
+position: absolute;
+font:courier;
+font-size: 44px;
+font-style: bold;
+color: #ff9800;
+
+
+}
+
+#strap {
+    position: absolute;
+   margin-top: 120px;
+    margin-left: 40px;
+    width: 60px;
+    height: 600px;
+    background: #0c0c9a;
+    border-radius: 10px 10px 20px 20px;
+}
+
+#face {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 6px;
+    width: 130px;
+    height: 130px;
+    background: grey;
+    border-radius: 64px;
+    border: 2px dotted white;
+}
+
+.hands {
+    position: absolute;
+    left: 75px;
+    top: 409px;
+    background: white;
+}
+
+#hour {
+    width: 5px;
+    height: 32px;
+    
+}
+
+#minute {
+    width: 40px;
+    height: 5px;    
+    
+}
+
+
+#topBuckle {
+    position: absolute;
+    left: 46px;
+    top: 120px;
+    width: 63px;
+    height: 22px;
+    background: white;
+    border-radius: 5px;
+    border: 4px solid black;
+}
+
+#clasp1 {
+    position: absolute;
+    left: 46px;
+    top: 200px;
+    width: 63px;
+    height: 8px;
+    background: black;
+    border-radius: 5px;
+    border: 4px solid black;
+}
+
+#clasp2 {
+    position: absolute;
+    left: 46px;
+    top: 225px;
+    width: 63px;
+    height: 8px;
+    background: black;
+    border-radius: 5px;
+    border: 4px solid black;
+}
+
+#holes {
+    position: absolute;
+    left: 75px;
+    top: 605px;
+    width: 3px;
+    height: 96px;
+    background: blue;
+    border: 3px dotted white;
+}
+
+.numbers { 
+position: absolute;
+font:courier;
+font-size: 18px;
+font-style: bold;
+font-color:solid red;
+
+ }
+#twelve {
+    left: 70px;
+    top: 346px;
+}
+
+
+#three {
+    left: 123px;
+    top: 387px;
+}
+
+#six {
+    left: 73px;
+    top: 441px;
+}
+
+#nine{
+    left: 25px;
+    top: 389px;
+
+}

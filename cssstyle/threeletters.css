@@ -1,0 +1,214 @@
+body{
+ position: absolute;
+ font-family: arial, sans-serif; 
+
+	font-weight: 400;
+	font-size: 20px;
+	font-style: bold;
+	color: #1bd406;
+	line-height: 20px;
+
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h3{
+position: absolute;
+top:23px;
+
+}
+
+h2{
+position: absolute;
+top:0px;
+font-weight: 400;
+	font-size: 10px;
+	font-style: bold;
+	color: #1bd406;
+
+}
+
+.square{
+	position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    
+
+}
+
+
+.recttall{
+	position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+    width: 10px;
+    height: 20px;
+}
+
+ .rectshort{
+ 	position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+    width: 20px;
+    height: 10px;
+
+}
+
+
+.quartercirc{
+position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+    width: 20px;
+    height: 20px;
+     border-bottom-right-radius: 100%;
+border: 1px solid black;
+
+}
+
+
+/* SHAPES FOR THE T */
+
+#rt1{
+	left: 70px;
+    top: 120px;
+}
+
+
+#s1{
+	left: 80px;
+    top: 120px;
+}
+
+#s2{
+	left: 100px;
+    top: 120px;
+}
+
+#s3{
+	left: 100px;
+    top: 140px;
+}
+
+#s4{
+	left: 100px;
+    top: 160px;
+}
+
+#s5{
+	left: 100px;
+    top: 180px;
+}
+
+#qc1{
+	left: 100px;
+    top: 200px;
+}
+
+#qc2{
+	left: 120px;
+    top: 100px;
+    transform: rotate(180deg);
+}
+
+#qc3{
+	left: 140px;
+    top: 100px;
+}
+
+/* SHAPES FOR THE J */
+
+#qc4{
+	left: 190px;
+    top: 100px;
+    transform: rotate(180deg);
+}
+
+#qc5{
+	left: 160px;
+    top: 180px;
+    transform: rotate(270deg);
+}
+
+#qc6{
+	left: 160px;
+    top: 200px;
+    transform: rotate(90deg);
+}
+
+#s6{
+	left: 190px;
+    top: 120px;
+}
+
+#s7{
+	left: 190px;
+    top: 140px;
+}
+
+
+#s8{
+	left: 190px;
+    top: 160px;
+}
+
+
+#s9{
+	left: 190px;
+    top: 180px;
+}
+
+/* SHAPES FOR THE L */
+
+
+#qc7{
+	left: 260px;
+    top: 100px;
+    transform: rotate(180deg);
+}
+
+#qc8{
+	left: 300px;
+    top: 200px;
+    transform: rotate(0deg);
+}
+
+#qc9{
+	left: 280px;
+    top: 200px;
+    transform: rotate(180deg);
+}
+
+#s10{
+	left: 260px;
+    top: 120px;
+}
+
+#s11{
+	left: 260px;
+    top: 140px;
+}
+
+
+#s12{
+	left: 260px;
+    top: 160px;
+}
+
+#s13{
+	left: 260px;
+    top: 180px;
+}
+
+
+
+
+
