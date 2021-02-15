@@ -11,14 +11,22 @@ div {
 
 h2{
 position: absolute;
-top: 207px;
-left: 38px;
 font-family:Syncopate;
 font-size: 30px;
 font-style: bold;
 color: #ff9800;
 transform: rotate(90deg);
+}
 
+.upperstrap{
+top: 207px;
+left: 38px;
+
+}
+
+.lowerstrap{
+top: 606px;
+left: -14px;
 
 }
 
