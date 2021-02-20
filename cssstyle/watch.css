@@ -72,6 +72,41 @@ position: absolute;
     
 }
 
+/* secondsback is a trasparent face area so the
+hover will happen over a wider area*/
+
+#secondsback{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 6px;
+    width: 130px;
+    height: 130px;
+    background: transparent;
+    border-radius: 64px;
+    border: 2px transparent;
+}
+
+
+#seconds{
+    position: absolute;
+    left: 76px;
+    top: 365px;
+    width: 3px;
+    height: 48px;
+    background-color: red;
+    
+}
+
+
+.rotate:active{
+    transform-origin: bottom center;
+    transform: rotate(90deg);
+}
+
+.pulsing{
+
+}
+
 
 #topBuckle {
     position: absolute;
