@@ -1,6 +1,5 @@
 body{
  
-
 }
 
 div {
@@ -10,19 +9,17 @@ div {
 
 h1{
 position: absolute;
-left: 152px;
-top: 399px;
+top:391px;
+left:152px;
 font-family:Syncopate;
-font-size: 16px;
+font-size: 20px;
 font-style: bold;
 color: red;
-
 
 }
 
 h1.clickbigger:hover {
    transform: translate(6em,0);
-   
 }
 
 h2{
@@ -44,9 +41,9 @@ left: 68px;
 .lowerstrap{
 position: absolute;
 top: 530px;
-left: 28px;
+left: 30px;
 opacity: 0; 
-transition: opacity 9s ease-in-out; 
+transition: opacity 7s ease-in-out; 
 
 }
 
