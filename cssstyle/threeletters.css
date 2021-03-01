@@ -92,8 +92,6 @@ height: 20px;
 border-bottom-right-radius: 100%;
 border: 1px solid black;
 
-
-
 }
 
 div:hover .quartercirc{
@@ -229,7 +227,7 @@ div:hover #qc4{
 
 div:hover #qc5{
     position:absolute;
-    transform: translate(280px,-35px) rotate(2deg);
+    transform: translate(220px,-75px) rotate(200deg);
     
 }
 
