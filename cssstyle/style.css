@@ -20,7 +20,7 @@ body{
 }
 
 h1 {
-	font-family: monoton;
+	font-family: 'Oi', cursive;
 	color:#ff9800;
 	font-size: 100px;
 	font-style: normal;
@@ -58,6 +58,9 @@ a{
 	color:#00bcd4;
 	font-size: 60;
     line-height: 40px;
+     text-decoration: none;
+     font-family: 'Amatic SC', cursive;
+    font-size: 36px;
 }
 
 
@@ -163,35 +166,23 @@ padding:4px;
     
 }  
 
-/*link and polkadot to my home page which dont need here but want to kee anyway
-    <div id="polkadothome"> </div>
-    <div id="homelink"> <a href= "index.html"> HOME</a> </div> -->
-
-
-#polkadothome{
-    position:absolute;
-    margin-top: -440px;
-    margin-left: 800px;
-    width: 80px;
-    height: 80px;
-    background: transparent;
-    border: 10px solid pink;
-    border-radius: 50px;
-
+a:visited{
+    color:blue;
 }
 
-#homelink{
-position:absolute;
-    margin-top: -421px;
-    margin-left: 806px;
-    font-family:syncopate;
-    font-size: 19px;
-    color:pink;
+a.ex1link{
+    color:red;
+}
 
-   */
-
-
-
+a.gardenlink{
+    color:hotpink;
+}
+a.watchlink{
+    color:darkblue;
+}
+a.threeletterslink{
+    color:lightgreen;
+}
 
 
 

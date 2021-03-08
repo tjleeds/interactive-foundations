@@ -1,0 +1,55 @@
+body{
+    position: relative;
+    top:100px;
+    font-family: Syncopate, sans-serif; 
+    font-weight: 400;
+    font-size: 20px;
+    font-style: bold;
+    color: #1bd406;
+    width:800px;
+    height:1100px;
+
+}
+
+div{
+    box-sizing: border-box;
+}
+
+a{
+    color:pink;
+    position: relative;
+}
+
+a.homelink  {
+    position:absolute;
+    left: 720px;
+    top:-100px;
+    font-family: Syncopate, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    width: 40px;
+    height: 40px;
+    border: 10px solid pink;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+h3{
+
+  position:absolute;
+    top: 20px;
+    left:300px;
+    color:#1bd406;
+    font-family: Syncopate, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+
+pre{
+    color:lightgreen;
+    }
