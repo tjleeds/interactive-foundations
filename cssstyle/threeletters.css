@@ -2,7 +2,7 @@
 body{
     position: relative;
     top:100px;
-    font-family: arial, sans-serif; 
+    font-family: Syncopate, sans-serif; 
     font-weight: 400;
     font-size: 20px;
     font-style: bold;
@@ -13,6 +13,26 @@ body{
 div{
     box-sizing: border-box;
 }
+
+a.homelink  {
+    position:absolute;
+    left: 420px;
+    top:-100px;
+    font-family: Syncopate, sans-serif;
+    font-size: 10px;
+    font-style: bold;
+    width: 40px;
+    height: 40px;
+    border: 10px solid pink;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
 
 h4{
     position: absolute;
@@ -350,13 +370,9 @@ div:hover #qc9{
 
 #homelink{
  position:absolute;
-    position: absolute;
     margin-top: -67px;
     margin-left: 467px;
-    font-family: syncopate;
-    font-size: 13px;
-    font-style: bold;
-    color:pink;
+
 }
 
 .T:hover {

@@ -8,13 +8,35 @@
 body{
     position: relative;
     top:40px;
-    font-family: 'Poiret One', cursive;
+    font-family: Syncopate, sans-serif;
     font-weight: 400;
     font-size: 10px;
     font-style: bold;
     color: orange;
 
 }
+
+a.homelink  {
+    position:absolute;
+    left: 671px;
+    text-align: center;
+    font-family: Syncopate, sans-serif;
+    font-size: 13px;
+    font-style: bold;
+    width: 40px;
+    height: 40px;
+    border: 10px solid pink;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+   
+    
+}
+
 
 div{
     box-sizing: border-box;
@@ -30,17 +52,7 @@ div{
     border: 10px solid pink;
     border-radius: 50px;
 
-}
 
-#homelink{
-    position:absolute;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 691px;
-    font-family: syncopate;
-    font-size: 13px;
-    font-style: bold;
-    color:pink;
 }
 
 h1 {
