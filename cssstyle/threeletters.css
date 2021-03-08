@@ -1,12 +1,4 @@
 
-{ 
-
-    border: 1px solid blue;
-    box-sizing:border-box;
-
-}
-
-
 body{
     position: relative;
     top:100px;
@@ -180,7 +172,9 @@ div:hover .recttall{
 
 div:hover #qc1{
     position:absolute;
-    transform: translate(478px,-100px) rotate(150deg) ;
+    transform: translate(478px,-100px) rotate(150deg);
+
+
     
 }
 
@@ -399,6 +393,20 @@ color: pink;
 transform:scale(1.25);
 }
 
+
+
+#p2dir{
+    position:absolute;
+    top:235px;
+    left:380px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: bold;
+    color: orange;
+    
+}
+}
 /* Shapes for the Logo
 
 .logo{

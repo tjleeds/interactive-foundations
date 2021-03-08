@@ -1,0 +1,353 @@
+/** { 
+
+    border: 1px solid blue;
+    box-sizing:border-box;
+
+}*/
+
+body{
+    position: relative;
+    top:40px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: bold;
+    color: orange;
+
+}
+
+div{
+    box-sizing: border-box;
+}
+
+#polkadothome{
+    position:absolute;
+    margin-top: -30px;
+    margin-left:670px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 10px solid pink;
+    border-radius: 50px;
+
+}
+
+#homelink{
+    position:absolute;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 691px;
+    font-family: syncopate;
+    font-size: 13px;
+    font-style: bold;
+    color:pink;
+}
+
+h1 {
+    position: absolute;
+    top: 375px;
+    left: 242px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: bold;
+    color: orange;
+}
+
+#imagehalf{
+    width: 240px;
+    height: 410px;
+    background: white;
+    border: 2px transparent;
+    border-radius: 00px;
+    position:absolute;
+    top:0px;
+    opacity:1;
+}
+
+@keyframes colorchange {
+  from {background-color: orange;}
+  to {background-color: #29c717;}
+  from {border: orange;}
+  to {border: #29c717;}
+}
+
+@keyframes movedown{
+    from {top:-10px;}
+    to{top:40}
+}
+
+@keyframes moveside{
+    from {left:30px;}
+    to{left:60px;}
+}
+
+/*@keyframes spin {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(360deg); }
+    100% { transform: rotate(0deg); }
+}
+
+*/
+
+#bigleaftop{
+    position:absolute;
+    top:40px;
+    left:60px;
+    opacity:1;
+    transform:rotate(90deg) scale(1.5);
+    background:#29c717;
+    border: 10px solid #29c717;
+    animation-name: colorchange, movedown;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: 8;
+    animation-timing-function: ease-in-out;
+
+}
+
+#bigleafbottom{
+    top:245px;
+    left:60px;
+    opacity:1;
+    transform:rotate(270deg) scale(1.5);
+    background:#29c717;
+    border: 10px solid #29c717;
+    animation-name: colorchange, moveside;
+    animation-duration: 6s;
+    animation-direction: alternate;
+    animation-iteration-count: 8;
+}
+
+.cover{
+    width: 32px;
+    height: 50px;
+    background: transparent;
+    border: 2px transparent;
+    border-radius: 00px;
+    position:absolute;
+    top:426px;
+}
+
+
+.covernum{
+    width: 32px;
+    height: 50px;
+    background: transparent;
+    border: 2px transparent;
+    border-radius: 00px;
+    position:absolute;
+    top:480px;
+}
+
+#smalla {
+    left:15px;
+}
+
+#smallb {
+    left:45px;
+}
+
+#smallc {
+    left:75px;
+}
+#smalld {
+    left:105px;
+}
+
+#smalle {
+    left:135px;
+}
+#smallf {
+    left:165px;
+}
+#smallg {
+    left:195px;
+}
+#smallh {
+    left:225px;
+}
+#smalli {
+    width: 20px;
+    left:255px;
+}
+#smallj {
+     width: 20px;
+    left:275px;
+}
+#smallk {
+    left:295px;
+}
+#smalll {
+    left:315px;
+}
+#smallm {
+    left:345px;
+}
+#smalln {
+    left:375px;
+}
+#smallo {
+    left:405px;
+}
+#smallp {
+    left:435px;
+}
+#smallq {
+    left:465px;
+}
+#smallr {
+    left:495px;
+}
+#smalls {
+    left:525px;
+}
+#smallt {
+    left:555px;
+}
+#smallu {
+    left:585px;
+}
+#smallv {
+    left:615px;
+}
+#smallw {
+    left:645px;
+}
+#smallx {
+    left:675px;
+}
+#smally {
+    left:705px;
+}
+#smallz {
+    left:735px;
+}
+#small0 {
+    left:15px;
+}
+#small1 {
+    left:45px;
+}
+#small2 {
+    left:80px;
+}
+#small3 {
+    left:115px;
+}
+#small4 {
+    left:145px;
+}
+#small5 {
+    left:175px;
+}
+#small6 {
+    left:205px;
+}
+#small7 {
+    left:235px;
+}
+#small8 {
+    left:275px;
+}
+
+#small9 {
+    left:305px;
+}
+#smallexcl {
+    left:345px;
+}
+#smallquestion {
+    left:375px;
+}
+#smallcomma {
+    left:405px;
+}
+}#smalleriod {
+    left:425px;
+}
+#smallquotes {
+    left:440px;
+}
+
+
+.mapsquare {
+    width: 137px;
+    height: 137px;
+    background: orange;
+    border: 10px solid orange;
+    border-radius: 0px;
+    position:absolute;
+    top: 630px;
+    left: 340px;
+    opacity: .15;
+}
+
+.mapquartercirc{
+    width: 137px;
+    height: 137px;
+    background: orange;
+    border: 10px solid orange;
+    border-radius: 0px;
+    border-bottom-left-radius: 100%;
+    position:absolute;
+    top: 630px;
+    left: 40px;
+    opacity: .15;    
+}
+
+.maprect{
+    width: 68px;
+    height: 137px;
+    background: orange;
+    border: 10px solid orange;
+    border-radius: 0px;
+    position:absolute;
+    top: 627px;
+    left: 671px;
+    opacity: .15;    
+}
+
+
+/* hover states */
+
+.circ:hover ~ .mapquartercirc  {
+    opacity: 1;
+}
+
+
+.square:hover ~ .mapsquare {
+    opacity: 1;
+}
+
+.rect:hover ~ .maprect {
+    opacity: 1;
+}
+
+#backtop1{
+    position: absolute;
+    top: 800px;
+    left: 527px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: bold;
+    color: orange;
+}
+    
+}
+
+
+/* animations 
+
+#bigleaftop:hover{
+  animation-play-state: paused;    
+}
+*/
+
+
+
+
+
+
+
