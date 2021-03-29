@@ -16,6 +16,25 @@ h1{
   left: 20px;
 }
 
+a.homelink  {
+    position:absolute;
+    left: 1060px;
+    top:50px;
+    font-family: Syncopate, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    width: 100px;
+    height: 100px;
+    border: 10px solid pink;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: pink;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 80px;
+}
+
 .grid {
   Top:50px;
   display: grid;
