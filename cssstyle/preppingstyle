@@ -1,0 +1,7 @@
+.grid {
+  display: grid;
+  border: 2px black solid;
+  height: 768px;
+  width: 1024px;
+  grid-template: repeat(6, 1fr) / repeat(9, 1);
+}

@@ -1,0 +1,383 @@
+
+{ 
+
+    border: 1px solid blue;
+    box-sizing:border-box;
+
+}
+
+
+body{
+    position: relative;
+    top:100px;
+    font-family: arial, sans-serif; 
+	font-weight: 400;
+	font-size: 20px;
+	font-style: bold;
+	color: #1bd406;
+
+}
+
+div{
+    box-sizing: border-box;
+}
+
+h4{
+    position: absolute;
+    display: inline;
+    width: 340px;
+    font-family: oswald;
+    top: 225px;
+    left: 43px;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: bold;
+    color: #1bd406;
+}
+
+
+h3{
+    position: absolute;
+    top:23px;
+}
+
+h2{
+    position: absolute;
+    font-family:oswald;
+    top:-100px;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: bold;
+    color: #1bd406;}
+
+
+.square {
+	position: absolute;
+    background: black;
+    border-radius: 0px;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
+
+.recttall{
+position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+width: 10px;
+height: 20px;
+}
+
+ .rectshort{
+ position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+width: 20px;
+height: 10px;
+
+}
+
+
+.quartercirc{
+position: absolute;
+background: black;
+border-radius: 0px;
+border: 1px solid black;
+width: 20px;
+height: 20px;
+border-bottom-right-radius: 100%;
+border: 1px solid black;
+
+
+
+}
+
+div:hover .quartercirc{
+    background: #1bd406;
+    }
+
+div:hover .square{
+    opacity:0.5;
+    border: 0.25px solid white;
+
+    }
+div:hover .recttall{
+    opacity:0.5;
+    border: 0.25px solid white;
+
+    }
+
+
+/* SHAPES FOR THE T */
+
+#rt1{
+	left: 70px;
+    top: 120px;
+}
+
+
+#s1{
+	left: 80px;
+    top: 120px;
+}
+
+#s2{
+	left: 100px;
+    top: 120px;
+}
+
+#s3{
+	left: 100px;
+    top: 140px;
+}
+
+#s4{
+	left: 100px;
+    top: 160px;
+}
+
+#s5{
+	left: 100px;
+    top: 180px;
+}
+
+#qc1{
+	left: 100px;
+    top: 200px;
+    transition-duration: 4s;
+    
+}
+
+div:hover #qc1{
+    position:absolute;
+    transform: translate(478px,-100px) rotate(150deg) ;
+    
+}
+
+#qc2{
+	left: 120px;
+    top: 100px;
+    transform: rotate(180deg);
+    transition-duration: 3s;
+    
+}
+
+div:hover #qc2{
+    position:absolute;
+    transform: translate(478px,90px) rotate(150deg) ;
+    transition-duration: 2s;
+    transition-duration: 2s ease-in-out;
+   
+}
+
+#qc3{
+	left: 140px;
+    top: 100px;
+    transition-duration: 4s;
+}
+
+div:hover #qc3{
+    position:absolute;
+    transform: translate(383px,-100px) rotate(150deg) ;
+    
+    
+}
+
+/* SHAPES FOR THE J */
+
+#qc4{
+	left: 190px;
+    top: 100px;
+    transform: rotate(180deg);
+    transition-duration: 3s;
+
+}
+
+div:hover #qc4{
+    position:absolute;
+    transform: translate(280px,-15px) rotate(2deg) ;
+   
+}
+
+#qc5{
+	left: 160px;
+    top: 180px;
+    transform: rotate(270deg);
+    transition-duration: 4s;
+    
+}
+
+div:hover #qc5{
+    position:absolute;
+    transform: translate(280px,-35px) rotate(2deg);
+    
+}
+
+#qc6{
+	left: 160px;
+    top: 200px;
+    transform: rotate(90deg);
+    transition-duration: 4s;
+}
+
+div:hover #qc6{
+    position:absolute;
+    transform: rotate(15deg) translate(425px,-166px);
+    transition-duration: 2s ease-in-out;
+}
+
+#s6{
+	left: 190px;
+    top: 120px;
+}
+
+#s7{
+	left: 190px;
+    top: 140px;
+}
+
+
+#s8{
+	left: 190px;
+    top: 160px;
+}
+
+
+#s9{
+	left: 190px;
+    top: 180px;
+}
+
+/* SHAPES FOR THE L */
+
+
+#qc7{
+	left: 260px;
+    top: 100px;
+    transform: rotate(180deg);
+    transition-duration: 4s;
+}
+
+div:hover #qc7{
+    position:absolute;
+    transform: translate(210px,20px) rotate(150deg) ;
+    }
+
+#qc8{
+	left: 300px;
+    top: 200px;
+    transform: rotate(0deg);
+    transition-duration: 4s;
+    
+}
+
+div:hover #qc8{
+    position:absolute;
+    transform: rotate(15deg) translate(101px,-76px);
+   
+}
+
+#qc9{
+	left: 280px;
+    top: 200px;
+    transform: rotate(180deg);  
+    transition-duration: 4s;
+    
+}
+
+div:hover #qc9{
+    position:absolute;
+    transform: rotate(40deg) translate(101px,-276px);
+}
+
+#s10{
+	left: 260px;
+    top: 120px;
+}
+
+#s11{
+	left: 260px;
+    top: 140px;
+}
+
+
+#s12{
+	left: 260px;
+    top: 160px;
+}
+
+#s13{
+	left: 260px;
+    top: 180px;
+}
+
+
+#polkadothome{
+    position:absolute;
+	margin-top: -100px;
+    margin-left:552px;
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 10px solid pink;
+    border-radius: 50px;
+
+}
+
+#homelink{
+ position:absolute;
+    position: absolute;
+    margin-top: -67px;
+    margin-left: 567px;
+    font-family: syncopate;
+    font-size: 13px;
+    font-style: bold;
+    color:pink;
+}
+
+
+
+.T:hover {
+    background: pink;
+}
+
+.J:hover {
+    background: #1bd406;
+}
+
+.L:hover {
+    background: #1bd406;
+    transform:scale(2);
+}
+
+
+.T{
+background: red;
+border:transparent;
+}
+
+.J{
+background: pink;
+border:transparent;
+}
+
+.L{
+background: orange;
+border:transparent;
+}
+
+.flash:hover{
+color: orange;
+transform:scale(1.25);
+
+
+
+
+
+
+
+
+
+

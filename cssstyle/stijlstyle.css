@@ -43,7 +43,7 @@ a.homelink  {
   height: 768px;
   width: 1024px;
   grid-template:repeat(4, 1fr) / repeat(4, 1fr);
-  position:relative;
+  
   top:50px;
   left:20px;
 
