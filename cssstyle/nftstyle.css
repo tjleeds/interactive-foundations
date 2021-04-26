@@ -7,32 +7,64 @@
 /* type */
 
 body{
-    position:absolute;
 	font-family: arial, sans-serif; 
 	font-weight: 400;
 	font-size: 20px;
 	font-style: bold;
-    background: white;
 	color: purple;
 	letter-spacing: -1px;
 	line-height: 15px;
 	text-align: left;
-	background-image: url("../assets/nftimages/seth3.jpg");
- 	background-color: #cccccc;
+	/*background-image: url("../assets/nftimages/sethbackground.jpg");
+ 	background-color: white;
  	background-repeat: no-repeat;
  	background-size: cover;
- 	background-position: right;
+ 	background-position:right;*/
+    margin-top: 40px;
+ 
 }
 
-body.page2bg {
+/*body.page2bg {
 	background-image: url("../assets/nftimages/seth3.jpg");
 	background-repeat: no-repeat;
  	background-size: cover;
  	background-position: left;	
 
+}*/
+
+img.page1{
+    position: absolute;
+    top: 2px;
+    left: -352px;
+    opacity: .9;
+    z-index: -10;
+    
 }
 
-.page2bg::before {
+img.page2{
+    position:absolute;
+    top:2px;
+    opacity:0.1;
+    
+}
+
+img.filler{
+    position: absolute;
+    top: 300px;
+    opacity: 1;
+    z-index:-20;
+  }
+
+
+  img.filler.page2{
+    position: absolute;
+    top: 877px;
+    opacity: 0.1;
+    z-index:-20;
+
+  }
+
+/*.page2bg::before {
     content: "";
     position: absolute;
     top: 0px;
@@ -41,13 +73,7 @@ body.page2bg {
     left: 0px;
     background-color: rgba(255,255,255,0.75);
 }
-
-.backtotop{
-	font-size: 50px;
-	color:red;
-	position:sticky;
-
-}
+*/
 
 @font-face {
     font-family: 'Presa';
@@ -59,8 +85,10 @@ body.page2bg {
 
 
 body, html {
-  height: 100%;
-  width:100%;
+  body, html 
+  min-height: 100%;
+  min-width:100%;
+
 }
 
 
@@ -70,6 +98,7 @@ h1 {
 	color:black;
 	font-size: 150px;
 	padding:30px;
+
 
 }
 
@@ -116,13 +145,11 @@ h1 {
 
 #rectanglegreenp2{
 	margin-top: 1px;
-
-
     margin-left:1px;
     background: transparent; 
     border: 7px solid #0bf50b;
     position:absolute;
-    top: 25px;
+    top: 51px;
     left: 20px;
 }
 h2{
@@ -138,7 +165,9 @@ h3{
 	color:black;
 	font-size: 87px;
 	padding:10px;
-    position:relative;
+    z-index: 1;
+    position: sticky;
+    top:2px;
 
 }
 
@@ -161,7 +190,8 @@ h5.headline{
     text-align: justify;
     text-justify: inter-word;
     padding-bottom: 0px;
-    position:relative;
+    position:absolute;
+    top:187px;
 
 }
 
@@ -237,6 +267,7 @@ a:hover{
 a.homelink  {
     position:absolute;
     left: 1260px;
+    top:5px;
     font-family: Syncopate, sans-serif;
     font-size: 14px;
     font-style: bold;
@@ -255,6 +286,7 @@ a.homelink  {
 
 a.back  {
     position:absolute;
+    top:5px;
     left: 1175px;
     font-family: Syncopate, sans-serif;
     font-size: 14px;
@@ -304,22 +336,16 @@ p{font-family: 'Cutive Mono', monospace;
 color:blue;
 }
 
-li:not(:last-child) {
-    margin-bottom: 15px;
-
-
+a.backtotop{
+    font-size: 16px;
+    font-family: 'Cutive Mono', monospace;
+    top: 20px;
+    left: 830px;
+    position: sticky;
+    z-index: 100000;
+    color: red;
 }
 
-.backtotop{
-	font-size: 10px;
-	font-family: 'Cutive Mono', monospace;
-	color:red;
-	position:sticky;
-	top:0;
-	left: 800px;
-	overflow: scroll;
-
-}
 
 .email{
     position:relative;
@@ -341,8 +367,8 @@ a.email_link:hover{
 .interview_text{
     padding-bottom: 50px;
     position:relative;
+    margin-top: 330px;
+    margin-left:13px
 }
-
-
 
 
