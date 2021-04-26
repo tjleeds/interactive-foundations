@@ -65,8 +65,6 @@ body, html {
 
 
 
-
-
 h1 {
 	font-family: Presa;
 	color:black;
@@ -140,6 +138,7 @@ h3{
 	color:black;
 	font-size: 87px;
 	padding:10px;
+    position:relative;
 
 }
 
@@ -161,6 +160,8 @@ h5.headline{
     line-height:30px;
     text-align: justify;
     text-justify: inter-word;
+    padding-bottom: 0px;
+    position:relative;
 
 }
 
@@ -171,13 +172,13 @@ h5.headline{
 
 .first{
 position:absolute;
-left:600px;
+left:675px;
 
 }
 
 .sells{
 	position:absolute;
-	left:550px;
+	left:620px;
 	transform: translateY(100px)rotate(90deg);
 
 }
@@ -289,7 +290,7 @@ p{font-family: 'Cutive Mono', monospace;
 	font-size: 16px;
 	padding:1px;
 	margin-left:10px;
-	 max-width: 600px;
+	 max-width: 700px;
 }
 
 
@@ -335,6 +336,11 @@ a.email_link:hover{
     color:#0bf50b;
     text-decoration: underline;
 
+}
+
+.interview_text{
+    padding-bottom: 50px;
+    position:relative;
 }
 
 
