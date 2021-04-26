@@ -172,13 +172,13 @@ h5.headline{
 
 .first{
 position:absolute;
-left:675px;
+left:760px;
 
 }
 
 .sells{
 	position:absolute;
-	left:620px;
+	left:700px;
 	transform: translateY(100px)rotate(90deg);
 
 }
@@ -287,10 +287,10 @@ a.back  {
 
 p{font-family: 'Cutive Mono', monospace;
 	color:black;
-	font-size: 16px;
+	font-size: 18px;
 	padding:1px;
 	margin-left:10px;
-	 max-width: 700px;
+	 max-width: 800px;
 }
 
 
