@@ -138,7 +138,7 @@ h2{
 h3{
 	font-family: Presa;
 	color:black;
-	font-size: 100px;
+	font-size: 87px;
 	padding:10px;
 
 }
@@ -150,6 +150,20 @@ h4{
 	margin-left: -100px;
 
 }
+
+h5.headline{
+    font-family: 'Cutive Mono', monospace;
+    color:blue;
+    font-size: 30px;
+    padding:1px;
+    margin-left:20px;
+    max-width: 800px;
+    line-height:30px;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+
 
 .rotate{
 	 transform: translateY(50px) rotate(90deg);
@@ -276,8 +290,8 @@ p{font-family: 'Cutive Mono', monospace;
 	padding:1px;
 	margin-left:10px;
 	 max-width: 600px;
-
 }
+
 
 #indent{
  margin-left: 25px;
@@ -301,10 +315,28 @@ li:not(:last-child) {
 	color:red;
 	position:sticky;
 	top:0;
-	left: 500px;
+	left: 800px;
 	overflow: scroll;
 
 }
+
+.email{
+    position:relative;
+    display:inline;
+    }
+
+a.email_link{
+    color:blue;
+    display:inline;
+
+}
+
+a.email_link:hover{
+    color:#0bf50b;
+    text-decoration: underline;
+
+}
+
 
 
 
