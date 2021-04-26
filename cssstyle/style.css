@@ -12,17 +12,19 @@ body{
 	font-weight: 400;
 	font-size: 20px;
 	font-style: bold;
+    background: white;
 	color: purple;
-	margin:100px;
+	margin-top:10px;
+    margin-left: 100px;
 	letter-spacing: -1px;
-	line-height: 20px;
+	line-height: 10px;
 	text-align: center;
 }
 
 h1 {
 	font-family: 'Oi', cursive;
 	color:#ff9800;
-	font-size: 100px;
+	font-size: 80px;
 	font-style: normal;
 	 text-shadow: 3px 6px 6px #89ec09;
 
@@ -30,6 +32,8 @@ h1 {
 
 h3{
 	margin-left: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 	font-family: molle;
 	font-size: 50px;
 	color:purple;
@@ -48,6 +52,10 @@ p {
 	font-weight: 40px;
 	font-style: bold;
 	text-shadow: 3px 3px 3px #89ec09;
+}
+
+p.desc{
+    margin-bottom: 50px;
 }
 
 ul{
@@ -70,6 +78,7 @@ border-radius: 180px;
 padding:4px;
 
 }
+
 .polkadots{
 	position:absolute;
 	width: 50px;
@@ -95,7 +104,7 @@ padding:4px;
 }
 
 #polkadot3{
-    margin-top:-400px;
+    margin-top:-300px;
     margin-left:600px;
     background: purple; 
     border: 12px #ff9800;
@@ -186,6 +195,27 @@ a.threeletterslink{
 
 a.stijllink{
     color:orange;
+}
+
+a.p1link{
+ color:red;
+}
+
+a.p2link{
+    color: blue;
+
+}
+
+
+#darkmode{
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+body.darkmode{
+    background:black;
+    color: white;
 }
 
 
