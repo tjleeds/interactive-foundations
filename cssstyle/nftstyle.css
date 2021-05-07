@@ -182,7 +182,7 @@ h1 {
 
 #rectangle1{
 	position:absolute;
-    top: 51px;
+    top: 6px;
     left: 20px;
 }
 
@@ -232,7 +232,7 @@ h1 {
 #rectangle8{
     position:absolute;
     top: 4400px;
-    left: 970px;
+    left: 470px;
     transform:rotate(15deg);
 }
 
@@ -555,6 +555,7 @@ a.email_link:hover{
     color:black;
     padding: 5px;
     z-index: 10000;
+    font-family: Presa;
 
 }
 
@@ -574,8 +575,8 @@ a.email_link:hover{
     color:black;
     padding: 5px;
     z-index: 10000;
+    font-family: Presa;
     
-
 
 }
 
@@ -587,6 +588,7 @@ a.email_link:hover{
     color:black;;
     padding: 5px;
     z-index: 10000;
+    font-family: Presa;
 
 
 }
@@ -599,6 +601,7 @@ a.email_link:hover{
     color:black;;
     padding: 5px;
     z-index: 10000;
+    font-family: Presa;
 
 }
 
@@ -610,12 +613,14 @@ a.email_link:hover{
     color:black;
     padding: 5px;
     z-index: 10000;
+    font-family: Presa;
 
 }
 
 #interviewstop1:hover{
     color:red;
     text-decoration: none;
+    font-family: Presa;
 
 }
 
