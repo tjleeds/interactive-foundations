@@ -15,7 +15,7 @@ body{
 	letter-spacing: -1px;
 	line-height: 15px;
 	text-align: left;
-    margin-top: 30px;
+    margin-top: -30px;
  
 }
 
@@ -27,19 +27,12 @@ audio{
     transform: rotate(-36deg);
 }
 
-/*body.page2bg {
-	background-image: url("../assets/nftimages/seth3.jpg");
-	background-repeat: no-repeat;
- 	background-size: cover;
- 	background-position: left;	
-
-}*/
 
 img.page1{
     position: absolute;
     top: 2px;
     left: -392px;
-    opacity: .9;
+    opacity: .7;
     z-index: -10;
     
 }
@@ -52,22 +45,34 @@ img.page2{
     
 }
 
-img.filler{
-    position: absolute;
-    top: 300px;
-    opacity: 1;
-    z-index:-20;
-  }
 
-
-  img.filler.page2{
+  img.filler{
     position: absolute;
-    top: 877px;
+    top: 890px;
     opacity: 0.15;
     z-index:-20;
 
   }
 
+  img.filler2{
+    position: absolute;
+    top: 5081px;
+    opacity: 0.15;
+    z-index:-20;
+
+  }
+
+  img.filler3{
+    position: absolute;
+    top: 7081px;
+    opacity: 0.15;
+    z-index:-20;
+
+  }
+
+
+  
+  
 /*.page2bg::before {
     content: "";
     position: absolute;
@@ -126,6 +131,14 @@ h1 {
     background: transparent; 
     border: 7px solid blue;
 }
+
+.blue2{
+    background: transparent; 
+    border: 7px solid blue;
+    opacity:.5;
+
+}
+
 
 
 .red{
@@ -208,6 +221,80 @@ h1 {
     left: 770px;
     transform:rotate(90deg);
 }
+
+#rectangle7{
+    position:absolute;
+    top: 3500px;
+    left: 1200px;
+    transform:rotate(190deg);
+}
+
+#rectangle8{
+    position:absolute;
+    top: 4400px;
+    left: 970px;
+    transform:rotate(15deg);
+}
+
+#rectangle9{
+    position:absolute;
+    top: 5200px;
+    left: 870px;
+    transform:rotate(230deg);
+}
+
+#rectangle10{
+    position:absolute;
+    top: 6000px;
+    left: 770px;
+    transform:rotate(65deg);
+}
+
+#rectangle11{
+    position:absolute;
+    top: 6500px;
+    left: 770px;
+    transform:rotate(160deg);
+}
+
+#rectangle12{
+    position:absolute;
+    top: 7000px;
+    left: 830px;
+    transform:rotate(260deg);
+}
+
+#rectangle13{
+    position:absolute;
+    top: 8000px;
+    left: 200px;
+    transform:rotate(45deg);
+}
+
+#rectangle14 {
+    position: absolute;
+    top: 133px;
+    left: 0px;
+    transform: rotate(10deg);
+}
+
+#rectangle15 {
+    position: absolute;
+    top: 9900px;
+    left: 22px;
+    transform: rotate(10deg);
+}
+
+
+#rectangle16 {
+    position: absolute;
+    top: 8700px;
+    left: 333px;
+    transform: rotate(10deg);
+}
+
+
+
 h2{
 	font-family: 'Cutive Mono', monospace;
 	color:white;
@@ -243,6 +330,25 @@ h4{
 	font-size: 50px;
 	margin-left: -100px;
 
+
+}
+
+h5{
+    font-family: 'Cutive Mono', monospace;
+    color:blue;
+    font-size: 30px;
+    padding:10px;
+    line-height:25px;
+
+}
+
+
+#glossary{
+line-height: 60px;
+margin-left:10px;
+max-width: 800px;
+padding-top:-40px;
+
 }
 
 h5.headline{
@@ -257,7 +363,7 @@ h5.headline{
     text-justify: inter-word;
     padding-bottom: 0px;
     position:absolute;
-    top:187px;
+    top:140px;
 
 }
 
@@ -292,19 +398,25 @@ ul {
   	padding-right: 10px;
   	padding-left: 10px;
   	border-radius: 5px;
-  	width: 400px;
-  	height:570px;
+  	width: 420px;
+  	height:420px;
   	position:absolute;
-  	top: 9px;
-  	left: 820px;
-  	line-height: 15px; 
+  	top: 35px;
+    left: 789px;
+  	line-height: 8px;
+
+}
+
+li{
+padding-bottom: 1em;
+
 }
 
 #menutitle{
 line-height: 50px;  
 text-decoration: underline;
 font-weight: bold;
-text-align: center;
+text-align: left;
 }
 
 
@@ -321,7 +433,9 @@ a{
 	color:white;
 	text-decoration: none;
 	font-size: 20px;
-	padding:1px; 
+	padding:1px;
+    display:inherit;
+    
 }
 
 a:hover{
@@ -335,7 +449,7 @@ a.homelink  {
     left: 1260px;
     top:5px;
     font-family: Syncopate, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-style: bold;
     width: 70px;
     height: 70px;
@@ -346,7 +460,8 @@ a.homelink  {
     color: white;
     margin: auto;
     text-align: center;
-    line-height: 66px;
+    line-height: 14px;
+    padding-top: 16px;
 }
 
 a.back  {
@@ -354,7 +469,7 @@ a.back  {
     top:5px;
     left: 1175px;
     font-family: Syncopate, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-style: bold;
     border: 2px solid pink;
     width: 70px;
@@ -364,7 +479,6 @@ a.back  {
     background-color: blue;
     color: white;
     margin: auto;
-    
     line-height: 44px;
 }
 
@@ -388,6 +502,8 @@ p{font-family: 'Cutive Mono', monospace;
 	padding:1px;
 	margin-left:10px;
 	 max-width: 800px;
+    line-height: 20PX;
+
 }
 
 
@@ -402,13 +518,14 @@ color:blue;
 }
 
 a.backtotop{
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Cutive Mono', monospace;
     top: 20px;
     left: 830px;
     position: sticky;
     z-index: 100000;
     color: red;
+    display:inline;
 }
 
 
@@ -420,6 +537,7 @@ a.backtotop{
 a.email_link{
     color:blue;
     display:inline;
+    font-size: 32px
 
 }
 
@@ -429,11 +547,141 @@ a.email_link:hover{
 
 }
 
+#jumpto{
+    position: absolute;
+    font-size: 24px;
+    top: 148px;
+    left: 22px;
+    color:black;
+    padding: 5px;
+    z-index: 10000;
+
+}
+
 .interview_text{
     padding-bottom: 50px;
     position:relative;
-    margin-top: 330px;
+    margin-top: 345px;
     margin-left:13px
+
 }
+
+#interviewstop1{
+    position: absolute;
+    font-size: 24px;
+    top: 148px;
+    left: 165px;
+    color:black;
+    padding: 5px;
+    z-index: 10000;
+    
+
+
+}
+
+#interviewstop2{
+    position: absolute;
+    font-size: 24px;
+    top: 148px;
+    left: 325px;
+    color:black;;
+    padding: 5px;
+    z-index: 10000;
+
+
+}
+
+#interviewstop3{
+    position: absolute;
+    font-size: 24px;
+    top: 148px;
+    left: 521px;
+    color:black;;
+    padding: 5px;
+    z-index: 10000;
+
+}
+
+#interviewstop4{
+    position: absolute;
+    font-size: 24px;
+    top: 148px;
+    left: 712px;
+    color:black;
+    padding: 5px;
+    z-index: 10000;
+
+}
+
+#interviewstop1:hover{
+    color:red;
+    text-decoration: none;
+
+}
+
+#interviewstop2:hover{
+    color:red;
+    
+
+}
+#interviewstop3:hover{
+    color:red;
+    text-decoration: none;
+
+}
+#interviewstop4:hover{
+    color:red;
+    text-decoration: none;
+
+}
+
+#glossary_list{
+font-family: 'Cutive Mono', monospace;
+position:absolute;
+top:450px;
+left: 10px;
+list-style-type: none;
+color:black;
+font-size: 20px;
+text-align: left;
+line-height: 20px; 
+list-style-type: none;
+background:transparent;
+padding:10px;
+
+width: 1000px;
+height:1732px;
+}
+
+#luddites{
+position:absolute;
+top:250px;
+max-width: 800px;
+line-height: 30px
+
+}
+
+span {
+
+text-decoration: underline;;
+
+}
+
+span2{
+
+font-size:30px;
+padding-top:40px;
+
+}
+
+.asterix{
+    position:absolute;
+    font-size:16px;
+    top:2220px;
+    color:blue;
+    display:inline;
+}
+
+
 
 

@@ -1,0 +1,440 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+
+/* type */
+
+body{
+	font-family: arial, sans-serif; 
+	font-weight: 400;
+	font-size: 20px;
+	font-style: bold;
+	color: purple;
+	letter-spacing: -1px;
+	line-height: 15px;
+	text-align: left;
+    margin-top: 30px;
+ 
+}
+
+audio{
+    position: absolute;
+    left: 893px;
+    top: 393px;
+    z-index: 1000;
+    transform: rotate(-36deg);
+}
+
+/*body.page2bg {
+	background-image: url("../assets/nftimages/seth3.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: left;	
+
+}*/
+
+img.page1{
+    position: absolute;
+    top: 2px;
+    left: -392px;
+    opacity: .9;
+    z-index: -10;
+    
+}
+
+img.page2{
+    position:absolute;
+    top:2px;
+    left: -100px;
+    opacity:0.15;
+    
+}
+
+img.filler{
+    position: absolute;
+    top: 300px;
+    opacity: 1;
+    z-index:-20;
+  }
+
+
+  img.filler.page2{
+    position: absolute;
+    top: 877px;
+    opacity: 0.15;
+    z-index:-20;
+
+  }
+
+/*.page2bg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.75);
+}
+*/
+
+@font-face {
+    font-family: 'Presa';
+    src: url('../fonts/presaantipixel/Presa.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body, html {
+  body, html 
+  min-height: 100%;
+  min-width:100%;
+
+}
+
+
+
+h1 {
+	font-family: Presa;
+	color:black;
+	font-size: 150px;
+	padding:30px;
+
+
+}
+
+.rectangle{
+	position:absolute;
+	width: 300px;
+    height: 180px;
+    border-style: groove;
+    opacity:0.5;
+    margin-top: 1px;
+    margin-left:1px;
+}
+
+.green{
+    background: transparent; 
+    border: 7px solid #0bf50b;
+
+}
+
+.blue{
+    background: transparent; 
+    border: 7px solid blue;
+}
+
+
+.red{
+    background: transparent; 
+    border: 7px solid red;
+}
+
+
+#rectangleblue{
+    margin-top: 1px;
+    margin-left:1px;
+    background: transparent; 
+    border: 7px solid blue;
+    position:absolute;
+    top: 587px;
+    left: 490px;
+
+}
+
+#rectanglegreen{
+    margin-top: 1px;
+    margin-left:1px;
+    background: transparent; 
+    border: 7px solid #0bf50b;
+    position:absolute;
+    top:200px;
+    left: 372px;
+
+}
+
+#rectanglered{
+    margin-top: 1px;
+    margin-left:1px;
+    background: transparent; 
+    border: 7px solid red;
+    position:absolute;
+    top: 404px;
+    left: 115px;
+
+}
+
+#rectangle1{
+	position:absolute;
+    top: 51px;
+    left: 20px;
+}
+
+#rectangle2{
+    position:absolute;
+    top:1200px;
+    left: 860px;
+    transform:rotate(80deg);
+
+}
+
+#rectangle3{
+    position:absolute;
+    top: 340px;
+    left: 900px;
+    transform:rotate(145deg);
+}
+
+#rectangle4{
+    position:absolute;
+    top: 1800px;
+    left: 700px;
+    transform:rotate(-67deg);
+}
+
+#rectangle5{
+    top:2200px;
+    left: 1100px;
+    transform:rotate(147deg);
+
+}
+
+#rectangle6{
+    position:absolute;
+    top: 2900px;
+    left: 770px;
+    transform:rotate(90deg);
+}
+h2{
+	font-family: 'Cutive Mono', monospace;
+	color:white;
+	font-size: 24px;
+	padding:10px;
+     transform: rotate(-36deg) scale(.75);
+
+}
+
+#listen{
+    color: black;
+    z-index: 100;
+    position: absolute;
+    left: 766px;
+    top: 349px;
+
+}
+
+h3{
+	font-family: Presa;
+	color:black;
+	font-size: 87px;
+	padding:10px;
+    z-index: 1;
+    position: sticky;
+    top:2px;
+
+}
+
+h4{
+	font-family: Presa;
+	color:#0bf50b;
+	font-size: 50px;
+	margin-left: -100px;
+
+}
+
+h5.headline{
+    font-family: 'Cutive Mono', monospace;
+    color:blue;
+    font-size: 30px;
+    padding:1px;
+    margin-left:20px;
+    max-width: 800px;
+    line-height:30px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-bottom: 0px;
+    position:absolute;
+    top:187px;
+
+}
+
+
+.rotate{
+	 transform: translateY(50px) rotate(90deg);
+}
+
+.first{
+position:absolute;
+left:760px;
+
+}
+
+.sells{
+	position:absolute;
+	left:700px;
+	transform: translateY(100px)rotate(90deg);
+
+}
+
+ul {
+  	list-style-type: none;
+  	margin: 10;
+  	overflow: hidden;
+  	font-family: 'Cutive Mono', monospace;
+	color:white;
+	font-size: 20px;
+	text-align: left;
+	border: 1px solid black;
+	background:black;
+  	padding-right: 10px;
+  	padding-left: 10px;
+  	border-radius: 5px;
+  	width: 400px;
+  	height:570px;
+  	position:absolute;
+  	top: 9px;
+  	left: 820px;
+  	line-height: 30px; 
+}
+
+#menutitle{
+line-height: 50px;  
+text-decoration: underline;
+font-weight: bold;
+text-align: center;
+}
+
+
+a{
+	font-family: 'Cutive Mono', monospace;
+	color:white;
+	font-size: 24px;
+	padding:1px;
+
+}
+ 
+ a:link{
+	
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	padding:1px;
+    display:inherit;
+}
+
+a:hover{
+	color:blue;
+	text-decoration: none;
+
+}
+
+a.homelink  {
+    position:absolute;
+    left: 1260px;
+    top:5px;
+    font-family: Syncopate, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    width: 70px;
+    height: 70px;
+    border: 2px solid pink;
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    margin: auto;
+    text-align: center;
+    line-height: 66px;
+}
+
+a.back  {
+    position:absolute;
+    top:5px;
+    left: 1175px;
+    font-family: Syncopate, sans-serif;
+    font-size: 14px;
+    font-style: bold;
+    border: 2px solid pink;
+    width: 70px;
+    height: 70px;
+    border: 10px solid blue;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    
+    line-height: 44px;
+}
+
+#indent:hover{
+	color:red;
+	text-decoration: none;
+
+}
+
+#redlink:hover{
+	color:red;
+	text-decoration: none;
+
+}
+
+
+
+p{font-family: 'Cutive Mono', monospace;
+	color:black;
+	font-size: 18px;
+	padding:1px;
+	margin-left:10px;
+	 max-width: 800px;
+}
+
+
+#indent{
+ margin-left: 25px;
+
+}
+
+
+#question{
+color:blue;
+}
+
+a.backtotop{
+    font-size: 16px;
+    font-family: 'Cutive Mono', monospace;
+    top: 20px;
+    left: 830px;
+    position: sticky;
+    z-index: 100000;
+    color: red;
+}
+
+
+.email{
+    position:relative;
+    display:inline;
+    }
+
+a.email_link{
+    color:blue;
+    display:inline;
+
+}
+
+a.email_link:hover{
+    color:#0bf50b;
+    text-decoration: underline;
+
+}
+
+.interview_text{
+    padding-bottom: 50px;
+    position:relative;
+    margin-top: 330px;
+    margin-left:13px
+}
+
+
